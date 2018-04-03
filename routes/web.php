@@ -38,4 +38,4 @@ Route::post('users', 'UsersController@store');
 //http://biblio/contact
 Route::get('contact', 'ContactController@create');
 
-Route::post('contact', 'ContactController@store');
+//Route::post('contact', 'ContactController@store');
