@@ -11,8 +11,11 @@
 |
 */
 
+//Route racine du site.
 Route::get('/', 'WelcomeController@index')->name('home');
 
+
+//Route sans passer par un controller :
 /*Route::get('article/{id}', function ($id) {
     return view('article')->with('id', $id);
 })->where('id', '[0-9]+');*/
@@ -26,3 +29,8 @@ Route::get('facture/{id}', function($id) {
 Route::get('login/{nom}-{id}', ['as' => 'login', function($nom, $id){
     return "Nom : $nom et id : $id";
 }])->where('nom', '[a-z0-9\-]+')->where('id', '[0-9]+');
+
+//http://biblio/users
+Route::get('users', 'UsersController@create');
+
+Route::post('users', 'UsersController@store');

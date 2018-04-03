@@ -1,10 +1,9 @@
 <!doctype html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>@yield('title')</title>
-    </head>
-    <body>
-        @yield('content')
-    </body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    @yield('content')
+</body>
 </html>
