@@ -11,16 +11,16 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@index')->name('home');
 
-Route::get('article/{id}', function ($id) {
+/*Route::get('article/{id}', function ($id) {
     return view('article')->with('id', $id);
-})->where('id', '[0-9]+');
+})->where('id', '[0-9]+');*/
 
-Route::get('facture/{n}', function($n) { 
-    return view('facture')->withNumero($n); 
+Route::get('article/{id}', 'ArticleController@show')->where('id', '[0-9]+');
+
+Route::get('facture/{id}', function($id) { 
+    return view('facture')->with('id', $id); 
 })->where('n', '[0-9]+');
 
 Route::get('login/{nom}-{id}', ['as' => 'login', function($nom, $id){
