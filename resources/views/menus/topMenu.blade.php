@@ -34,6 +34,7 @@
         </nav>
 
     </header>
+    @yield('drapeaumaintenance')
 
     // le contenu de la page
     @yield('content')
