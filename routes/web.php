@@ -38,4 +38,7 @@ Route::post('users', 'UsersController@store');
 //http://biblio/contact
 Route::get('contact', 'ContactController@create');
 
+//la page d'accueil du site : 
+Route::get('accueil', 'PageAccueilController@accueil');
+
 //Route::post('contact', 'ContactController@store');
