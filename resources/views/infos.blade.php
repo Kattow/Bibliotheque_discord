@@ -1,5 +1,7 @@
 @extends('template')
 
+@yield("bannieremaintenance")
+
 @section('content')
     {!! Form::open(['url' => 'users']) !!}
         {!! Form::label('nom', 'Entrez votre nom : ') !!}
