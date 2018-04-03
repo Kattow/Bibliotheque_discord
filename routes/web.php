@@ -34,3 +34,8 @@ Route::get('login/{nom}-{id}', ['as' => 'login', function($nom, $id){
 Route::get('users', 'UsersController@create');
 
 Route::post('users', 'UsersController@store');
+
+//http://biblio/contact
+Route::get('contact', 'ContactController@create');
+
+Route::post('contact', 'ContactController@store');
