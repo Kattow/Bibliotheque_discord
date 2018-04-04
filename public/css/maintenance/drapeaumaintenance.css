@@ -1,0 +1,32 @@
+.drapeaumaintenancepetit{
+    width: 5%;
+    height: 20px;
+
+    text-align: center;
+    color: rgb(75, 0, 0);
+
+    border: dashed rgba(110, 1, 1, 0.521) 1px;
+}
+
+.drapeaumaintenance{
+    display: none;
+}
+
+.drapeau:active{
+    display: none;
+}
+
+.drapeaumaintenancepetit:active .drapeaumaintenance{
+    display: inline-block;
+    width: 80%;
+    height: 30px;
+
+    color : rgba(226, 59, 59, 0.973);
+    text-align: center;
+
+    margin: 2px;
+    padding: 10%;
+
+    border: solid rgba(221, 17, 17, 0.87) 2px;
+    border-radius: 2%;
+}

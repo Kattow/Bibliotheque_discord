@@ -1,3 +1,14 @@
 
 
-    <h5>Salut tu es bien sur la page d'accueil du site</h5>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>truc</title>
+</head>
+<body>
+    
+@yield('topmenu')
+</body>
+</html>

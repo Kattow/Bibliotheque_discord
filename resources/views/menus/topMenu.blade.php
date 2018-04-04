@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>@yield('title')</title>
-    <link rel="stylesheet" href="../../../css/topmenu.css">
-</head>
+@section('topmenu')
+
 <body>
     
     <header>
@@ -13,7 +8,7 @@
                 <ul>
                     <li> 
                             <ul>
-                                <li></li>
+                                <li><a href="http://sitebibli/accueil">Accueil</a> </li>
                                 <li></li>
                                 <li></li>
                             </ul>
@@ -27,7 +22,9 @@
                             </ul>
                     </li>
                     <li> 
-                     
+                            <ul>
+                                <li> <a href="http://sitebibli/contact">Contact</a> </li>
+                            </ul>
                     </li>                   
                 </ul>
         
@@ -42,4 +39,4 @@
 
 </body>
 
-
+@endsection('topmenu')
