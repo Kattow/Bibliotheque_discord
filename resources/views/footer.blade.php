@@ -1,0 +1,1 @@
+<p>Ceci est le footer de la page</p>

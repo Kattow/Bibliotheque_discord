@@ -54,7 +54,8 @@
             </ul>               
         </ul>
     </nav>
-
+<br><br><br><br><br><br><br>
     @yield('content')
+    @extends('../footer')
     </body>
 </html>
