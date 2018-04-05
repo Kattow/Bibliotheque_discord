@@ -10,10 +10,11 @@ body{
     position: fixed;
     top: 40px;
     margin-top: 50px;
+    padding-top: 1%;
     padding-left: 0px;
     padding-right: 0px;
 
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(134, 134, 134);
 
     border: solid black 1px;
 
@@ -74,13 +75,14 @@ body{
 .sousmenu{
     display: none;
     list-style-type: none;
+    line-height: 100px;
 }
 
 .ul-menu-accueil:hover .sousmenu{
     display: inline-block;
     position: absolute;
     top: 30px;
-    left: 30%;
+    left: 32%;
 }
 
 .ul-menu-oeuvres:hover .sousmenu{
@@ -94,14 +96,14 @@ body{
     display: inline-block;
     position: absolute;
     top: 30px;
-    left: 35%;
+    left: 37%;
 }
 
 .ul-menu-recherches:hover .sousmenu{
     display: inline-block;
     position: absolute;
     top: 30px;
-    left: 20%;
+    left: 22%;
 }
 
 
