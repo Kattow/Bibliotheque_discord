@@ -97,7 +97,7 @@ body{
     left: 35%;
 }
 
-.ul-menu-recherches .sousmenu{
+.ul-menu-recherches:hover .sousmenu{
     display: inline-block;
     position: absolute;
     top: 30px;
