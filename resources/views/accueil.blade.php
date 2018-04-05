@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Accueil</title>
-    <link rel="stylesheet" href="../../public/css/topmenu.css" style="type/css">
+    <link rel="stylesheet" href="css/topmenu.css" style="type/css">
 </head>
 <body>
 @extends('menus/topMenu')
