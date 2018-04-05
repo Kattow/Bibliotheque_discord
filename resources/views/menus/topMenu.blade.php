@@ -8,7 +8,6 @@
                     <li> <a href="http://biblio/accueil" class="lien">Accueil</a> 
                         <ul class="sousmenu">
                             <li> <a href="#" class="lien">Annonces</a> </li>
-                            <li> <a href="#" class="lien">reseaux sociaux</a> </li>
                             <li> <a href="#" class="lien">evenements</a> </li>
                         </ul>
                     </li>

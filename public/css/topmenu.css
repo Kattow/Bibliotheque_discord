@@ -34,6 +34,7 @@ body{
 
 }
 
+
 .ul-menu-accueil{
     position: relative;
     width: 20%;
@@ -79,6 +80,28 @@ body{
     display: inline-block;
     position: absolute;
     top: 30px;
+    left: 30%;
+}
+
+.ul-menu-oeuvres:hover .sousmenu{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 20%;
+}
+
+.ul-menu-forum:hover .sousmenu{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 35%;
+}
+
+.ul-menu-recherches .sousmenu{
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 20%;
 }
 
 
