@@ -1,4 +1,12 @@
 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="css/topmenu.css" style="type/css">
+</head>
+<body>
 
     <nav class="topmenu-nav">
         <ul class="ul-menu">                
@@ -46,4 +54,7 @@
             </ul>               
         </ul>
     </nav>
-        
+
+    @yield('content')
+    </body>
+</html>
