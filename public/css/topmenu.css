@@ -39,10 +39,14 @@ body{
 }
 
 .ul-menu-accueil{
-    display: inline-block;
     float: left;    
-
     list-style-type: none;
+}
+
+.ul-menu-accueil:hover{
+    
+    
+    background-color: rgba(241, 147, 7, 0.877);
 }
 
 .ul-menu-oeuvres{
