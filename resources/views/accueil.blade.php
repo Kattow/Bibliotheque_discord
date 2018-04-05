@@ -1,14 +1,30 @@
+@extends('menus/topMenu')
+@section('topmenu')
+        <nav>
+                <ul>
+                    <li> 
+                            <ul>
+                                <li><a href="http://biblio/accueil">Accueil</a> </li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                    </li>
+                    <li> 
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                    </li>
+                    <li> 
+                            <ul>
+                                <li> <a href="http://biblio/contact">Contact</a> </li>
+                            </ul>
+                    </li>                   
+                </ul>
+        
+        </nav>
 
+@endsection
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>truc</title>
-</head>
-<body>
-    
-    @yield('menu/topmenu')
-</body>
-</html>
