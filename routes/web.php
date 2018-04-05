@@ -45,3 +45,13 @@ Route::get('accueil', 'PageAccueilController@accueil');
 
 //Route pour accéder à la faq
 Route::get('faq', 'FaqController@create');
+
+//Route pour acceder aux annonces
+Route::get('annonces', 'AnnoncesController@annonces');
+
+//Route pour acceder aux evenements
+Route::get('evenements', 'EvenementController@evenement');
+
+//Route pour acceder a la page ecrivain du mois
+Route::get('ecrivain', 'EcrivainController@ecrivain');
+
