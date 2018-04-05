@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="css/topmenu.css" style="type/css">
 </head>
 <body>
-@extends('menus/topMenu')
-    </body>
+    @extends('menus/topMenu')
+</body>
 </html>
