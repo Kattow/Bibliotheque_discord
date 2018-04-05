@@ -9,6 +9,6 @@
 </head>
 <body>
     
-@yield('topmenu')
+    @yield('menu/topmenu')
 </body>
 </html>

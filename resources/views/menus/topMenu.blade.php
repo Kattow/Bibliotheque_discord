@@ -31,12 +31,9 @@
         </nav>
 
     </header>
-    @yield('drapeaumaintenance')
-
-    // le contenu de la page
-    @yield('content')
+    @yield('../maintenance/drapeaumaintenance')
 
 
 </body>
 
-@endsection('topmenu')
+@endsection
