@@ -12,7 +12,7 @@
 */
 
 //Route racine du site.
-Route::get('/', 'WelcomeController@index')->name('home');
+Route::get('/', 'PageAccueilController@accueil')->name('home');
 
 
 //Route sans passer par un controller :
@@ -42,3 +42,6 @@ Route::get('contact', 'ContactController@create');
 Route::get('accueil', 'PageAccueilController@accueil');
 
 //Route::post('contact', 'ContactController@store');
+
+//Route pour accéder à la faq
+Route::get('faq', 'FaqController@create');
