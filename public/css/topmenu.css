@@ -1,118 +1,67 @@
 
 body{
+    font-family: monospace;
+    color: black;
     padding: 0px;
     margin: 0px;
 }
 
-
-.topmenu-nav{
+.nav-menu{
     width: 100%;
-    height: 50px;
-    position: fixed;
-    top: 40px;
-    margin-top: 50px;
-    padding-top: 0.20%;
-    padding-left: 0px;
-    padding-right: 0px;
-
-    background-color: rgb(134, 134, 134);
-
-    border: solid black 1px;
-
-    text-align: center;
+    background-color: #424558;
 }
-
 
 .ul-menu{
+    padding: 0px;
+    margin: 0px;
+}
 
-    position: relative;
+.ul-menu::after{
+    content: "";
+    display: block;
+    clear: both;
+}
 
-    width: 100%;
-    height: 100%;
-
+li{
     list-style-type: none;
 }
 
-
-.ul-menu-accueil{
-    position: relative;
-    width: 20%;
-    height: 100%;
-    float: left;    
-
-    list-style-type: none;
-}
-
-.ul-menu-oeuvres{
-    position: relative;
-    width: 20%;
-    height: 100%;
+nav > ul > li{
     float: left;
-    list-style-type: none;
-}
-
-.ul-menu-forum{
     position: relative;
-    width: 20%;
-    height: 100%; 
-    float: left;
-
-    list-style-type: none;
 }
 
-.ul-menu-recherches{
-    position: relative;
-    width: 20%;
-    height: 100%;
-    float: left;
-
-    list-style-type: none;
+.ul-menu > li > a{
+    padding: 20px 100px;
+    color: snow;
 }
 
-
-.sousmenu{
+.sous-menu{
     display: none;
-    list-style-type: none;
-    line-height: 75px;
 
-    background-color: rgba(255, 166, 0, 0.747);
 }
 
-.ul-menu-accueil:hover .sousmenu{
+.menu-li:hover .sous-menu{
     display: inline-block;
     position: absolute;
-    top: 30px;
-    left: 32%;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+    background-color: rgba(255, 166, 0, 0.856);
 }
 
-.ul-menu-oeuvres:hover .sousmenu{
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 20%;
+.sous-menu li{
+    border-bottom: solid 1px black;
 }
 
-.ul-menu-forum:hover .sousmenu{
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 37%;
+.sous-menu li .lien{
+    padding: 15px 100px;
 }
-
-.ul-menu-recherches:hover .sousmenu{
-    display: inline-block;
-    position: absolute;
-    top: 30px;
-    left: 22%;
-}
-
 
 .lien{
-    color: black;
-
+    display: inline-block;
+    color: snow;
     text-decoration: none;
     text-transform: uppercase;
-
 }
-
-

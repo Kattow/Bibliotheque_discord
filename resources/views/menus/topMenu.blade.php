@@ -8,51 +8,43 @@
 </head>
 <body>
 
-    <nav class="topmenu-nav">
-        <ul class="ul-menu">                
-            
-            
-            <ul class="ul-menu-accueil">    
-                    <li> <a href="http://biblio/accueil" class="lien">Accueil</a> 
-                        <ul class="sousmenu">
-                            <li> <a href="#" class="lien">Annonces</a> </li>
-                            <li> <a href="#" class="lien">evenements</a> </li>
-                        </ul>
-                    </li>
-            </ul>
+    <nav class="nav-menu">
+        
+        <ul class="ul-menu">
 
-                 
-            <ul class="ul-menu-oeuvres">
-                <li> <a href="#" class="lien">Oeuvres</a> 
-                    <ul class="sousmenu">    
-                        <li> <a href="#" class="lien">Ecrivain du mois</a> </li>
-                        <li> <a href="#" class="lien">Illustrations</a> </li>
-                        <li> <a href="#" class="lien">Liste des oeuvres</a> </li>
-                        <li> <a href="#" class="lien">Meilleures oeuvres</a> </li>
-                        <li> <a href="#" class="lien">Random book generator</a> </li>
-                    </ul>
-                </li>
-            </ul>
-    
-             
-            <ul class="ul-menu-forum">
-                <li> <a href="http://biblio/contact" class="lien">Contact</a> 
-                    <ul class="sousmenu">
-                        <li> <a href="#" class="lien">Forum</a> </li>
-                        <li> <a href="#" class="lien">F.A.Q</a> </li>
-                    </ul>    
-                </li>
-            </ul>
-            
-            <ul class="ul-menu-recherches">
-                <li> <a href="#" class="lien">Recherche</a> 
-                    <ul class="sousmenu">
-                        <li> <a href="#" class="lien">recherches avancées</a> </li>
-                    </ul>
-                </li>
-                
-            </ul>               
+            <li class="menu-li"> <a href="http://biblio/accueil" class="lien">accueil</a> 
+                <ul class="sous-menu">
+                    <li> <a href="#" class="lien">evenements</a> </li>
+                    <li> <a href="#" class="lien">annonces</a> </li>
+                </ul>
+            </li>
+
+            <li class="menu-li"> <a href="#" class="lien">Oeuvres</a> 
+                <ul class="sous-menu">
+                    <li> <a href="#" class="lien">Ecrivain du mois</a> </li>
+                    <li> <a href="#" class="lien">Illustrations</a> </li>
+                    <li> <a href="#" class="lien">Liste des oeuvres</a> </li>
+                    <li> <a href="#" class="lien">Meilleures oeuvres</a> </li>
+                    <li> <a href="#" class="lien">Random book generator</a> </li>
+                </ul>
+            </li>
+
+            <li class="menu-li"> <a href="#" class="lien">Contact</a> 
+                <ul class="sous-menu">
+                    <li> <a href="#" class="lien">Forum</a> </li>
+                    <li> <a href="#" class="lien">F.A.Q</a> </li>                    
+                </ul>
+            </li>
+
+            <li class="menu-li"> <a href="#" class="lien">Recherche</a> 
+                <ul class="sous-menu">
+                    <li> <a href="#" class="lien">Recherche avancée</a> </li>                    
+                </ul>
+            </li>
         </ul>
+
+    </nav>
+        
     </nav>
 <br><br><br><br><br><br><br>
     @yield('content')
