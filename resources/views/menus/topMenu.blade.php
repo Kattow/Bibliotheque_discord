@@ -29,10 +29,10 @@
                 </ul>
             </li>
 
-            <li class="menu-li"> <a href="#" class="lien">Contact</a> 
+            <li class="menu-li"> <a href="http://biblio/contact" class="lien">Contact</a> 
                 <ul class="sous-menu">
                     <li> <a href="#" class="lien">Forum</a> </li>
-                    <li> <a href="#" class="lien">F.A.Q</a> </li>                    
+                    <li> <a href="http://biblio/faq" class="lien">F.A.Q</a> </li>                    
                 </ul>
             </li>
 
