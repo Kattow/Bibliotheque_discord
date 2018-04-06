@@ -102,10 +102,12 @@ nav > ul > li{
 
 .div-menu-recherche{
     position: relative;
+    overflow: hidden; 
     
 }
 
 .menu-recherche{
+    
     border: solid rgb(75, 75, 75) 2px;
     border-radius: 7%;
     margin: 15px 80px;

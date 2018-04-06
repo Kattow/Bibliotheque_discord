@@ -42,7 +42,7 @@
                 </ul>
             </li>
             
-        <!--
+        
             <div class="div-menu-recherche">
 
                 {!! Form::open(['url' => 'recherches'])  !!}
@@ -51,7 +51,7 @@
                 {!!Form::close()!!}
 
             </div>
-        -->
+        
         </ul>
 
     </nav>
