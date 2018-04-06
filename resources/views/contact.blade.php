@@ -16,7 +16,7 @@
                         {!! $errors->first('email', '<small class="help-block">:message</small>') !!}
                     </div>
                     <div class="form-group {!! $errors->has('texte') ? 'has-error' : '' !!}">
-                        {!! Form::textarea ('texte', null, ['class' => 'form-control', 'placeholder' => 'Votre message']) !!}
+                        {!! Form::textarea('texte', null, ['class' => 'form-control', 'placeholder' => 'Votre message']) !!}
                         {!! $errors->first('texte', '<small class="help-block">:message</small>') !!}
                     </div>
                     {!! Form::submit('Envoyer !', ['class' => 'btn btn-info pull-right']) !!}

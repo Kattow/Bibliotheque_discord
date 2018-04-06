@@ -7,13 +7,14 @@ body{
 }
 
 .nav-menu{
-    width: 100%;
+    width: 90%;
+    margin-left: 5%;
     background-color: #424558;
 }
 
 .ul-menu{
     padding: 0px;
-    margin: 0px;
+    margin: 50px 0px 0px 0px;
 }
 
 .ul-menu::after{
@@ -34,6 +35,7 @@ nav > ul > li{
 .ul-menu > li > a{
     padding: 20px 100px;
     color: snow;
+    border-right: solid 1px black;
 }
 
 .sous-menu{
@@ -43,6 +45,7 @@ nav > ul > li{
 
 .menu-li:hover .sous-menu{
     display: inline-block;
+    width: 100%;
     position: absolute;
     top: 100%;
     left: 0px;
@@ -61,7 +64,23 @@ nav > ul > li{
 
 .lien{
     display: inline-block;
-    color: snow;
+    color: rgb(75, 75, 75);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+/*la barre de recherche*/
+
+.div-menu-recherche{
+    position: relative;
+    
+}
+
+.menu-recherche{
+    border: solid rgb(75, 75, 75) 2px;
+    border-radius: 7%;
+    margin: 15px 80px;
+    padding: 5px;
+    background-color: snow;
+    box-shadow: none;
 }

@@ -41,6 +41,17 @@
                     <li> <a href="#" class="lien">Recherche avancée</a> </li>                    
                 </ul>
             </li>
+            
+        <!--
+            <div class="div-menu-recherche">
+
+                {!! Form::open(['url' => 'recherches'])  !!}
+                    {!! Form::text('texte', null, ['class' => 'menu-recherche', 'placeholder' => 'rechercher']) !!}
+                    {!! $errors->first('texte', '<small class="help-block">:message</small>')!!}
+                {!!Form::close()!!}
+
+            </div>
+        -->
         </ul>
 
     </nav>
