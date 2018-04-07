@@ -51,19 +51,19 @@ nav > ul > li{
     -moz-animation-duration: 2.5s;
 }
 @-webkit-keyframes chgt-couleur{
-    from {backgroundcolor: #424558;}
+    from {backgroundcolor: #8b8b8f;}
     to {background-color: rgb(110, 110, 110);}
 }
 @-o-keyframes chgt-couleur{
-    from {backgroundcolor: #424558;}
+    from {backgroundcolor:#8b8b8f;}
     to {background-color:rgb(110, 110, 110);}
 }
 @-moz-keyframes chgt-couleur{
-    from {backgroundcolor: #424558;}
+    from {backgroundcolor: #8b8b8f;}
     to {background-color: rgb(110, 110, 110);}
 }
 @keyframes chgt-couleur{
-    from {backgroundcolor: #424558;}
+    from {backgroundcolor: #8b8b8f;}
     to {background-color: rgb(110, 110, 110);}
 }
 
@@ -76,11 +76,11 @@ nav > ul > li{
     left: 0px;
     padding: 0px;
     z-index: 1000;
-    background-color: rgb(110, 110, 110);
+    background-color: #8b8b8f;
 }
 
 .menu-li:hover > a{
-    color: black;
+    color: snow;
 }
 
 .sous-menu li{
@@ -93,7 +93,7 @@ nav > ul > li{
 
 .lien{
     display: inline-block;
-    color: rgb(75, 75, 75);
+    color: snow;
     text-decoration: none;
     text-transform: uppercase;
 }
