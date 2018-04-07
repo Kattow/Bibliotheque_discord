@@ -1,25 +1,30 @@
-@extends('template')
+@extends('menus/topmenu')
 
 @section('content')
     <br>
-    <div class="col-sm-offset-3 col-sm-6">
-        <div class="panel panel-info">
-            <div class="panel-heading">Contactez-moi</div>
-            <div class="panel-body"> 
+    <div class="div-conteneur-contact">
+        <div class="div-titre-contact">Contactez-nous</div>
+        <div class="div-conteneur-formulaire-contact">
+            <div class="div-form-contact"> 
                 {!! Form::open(['url' => 'contact']) !!}
-                    <div class="form-group {!! $errors->has('nom') ? 'has-error' : '' !!}">
-                        {!! Form::text('nom', null, ['class' => 'form-control', 'placeholder' => 'Votre nom']) !!}
+                    <div {!! $errors->has('nom') ? 'has-error' : '' !!}>
+                        {!! Form::label('nom', 'Nom :', ['class' => 'label-nom-contact'])!!}
+                        <br>
+                        {!! Form::text('nom', null, ['class' => 'nom-form-contact', 'placeholder' => 'Votre nom']) !!}
                         {!! $errors->first('nom', '<small class="help-block">:message</small>') !!}
                     </div>
-                    <div class="form-group {!! $errors->has('email') ? 'has-error' : '' !!}">
-                        {!! Form::email('email', null, ['class' => 'form-control', 'placeholder' => 'Votre email']) !!}
+                    <div {!! $errors->has('email') ? 'has-error' : '' !!}>
+                        {!! Form::label('email', 'Email :', ['class' => 'label-email-contact'])!!}
+                        <br>
+                        {!! Form::email('email', null, ['class' => 'email-form-contact', 'placeholder' => 'Votre email']) !!}
                         {!! $errors->first('email', '<small class="help-block">:message</small>') !!}
                     </div>
-                    <div class="form-group {!! $errors->has('texte') ? 'has-error' : '' !!}">
-                        {!! Form::textarea('texte', null, ['class' => 'form-control', 'placeholder' => 'Votre message']) !!}
+                    <div {!! $errors->has('texte') ? 'has-error' : '' !!}>
+                        {!! Form::label('texte', 'Entrer votre message :', ['class' => 'label-texte-contact'])!!}
+                        {!! Form::textarea('texte', null, ['class' => 'texte-form-contact', 'placeholder' => 'Votre message']) !!}
                         {!! $errors->first('texte', '<small class="help-block">:message</small>') !!}
                     </div>
-                    {!! Form::submit('Envoyer !', ['class' => 'btn btn-info pull-right']) !!}
+                    {!! Form::submit('Envoyer !', ['class' => 'bouton-form-contact']) !!}
                 {!! Form::close() !!}
             </div>
         </div>
