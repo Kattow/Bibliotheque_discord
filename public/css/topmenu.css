@@ -93,6 +93,10 @@ nav > ul > li{
     padding: 15px 100px;
 }
 
+.sous-menu li .lien:hover{
+	color: black;
+}
+
 .lien{
     display: inline-block;
     color: snow;

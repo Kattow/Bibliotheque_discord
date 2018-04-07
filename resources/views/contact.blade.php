@@ -1,11 +1,11 @@
 @extends('menus/topmenu')
 
 @section('content')
-    <br>
+
     <div class="div-conteneur-contact">
         <div class="div-titre-contact">Contactez-nous</div>
         <div class="div-conteneur-formulaire-contact">
-            <div class="div-form-contact"> 
+            <div class="div-form-contact">
                 {!! Form::open(['url' => 'contact']) !!}
                     <div {!! $errors->has('nom') ? 'has-error' : '' !!}>
                         {!! Form::label('nom', 'Nom :', ['class' => 'label-nom-contact'])!!}
