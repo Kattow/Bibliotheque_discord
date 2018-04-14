@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/TopMenu.css" style="type/css">
     <link rel="stylesheet" href="css/ContactForm.css" style="type/css">
     <link rel="stylesheet" href="css/ecrivainDuMois.css" style="type/css">
+		<link rel="stylesheet" href="css/faq.css" style="type/css">
 
 </head>
 <body>
