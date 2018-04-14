@@ -29,7 +29,7 @@ comme je sais pas quel themes on va mettre pour le moment
 			<br>
 			<br>
 			<div {{!! $errors->has('reponse') ? 'has-errors' : '' !!}}>
-					{!! Form::label('reponse-faq', 'Reponse :', ['class' => 'label-reponse-faq']) !!}
+					{!! Form::label('reponse-faq', 'Réponse :', ['class' => 'label-reponse-faq']) !!}
 					<br>
 					{!! Form::textarea('reponse-faq', null, ['class' => 'textarea-formulaire-reponse-faq']) !!}
 			</div>
@@ -40,20 +40,24 @@ comme je sais pas quel themes on va mettre pour le moment
 
 
 </div>
+<br>
+<br>
 
 <!--La zone de question-->
-<div class="">
+	<h4 class="titre-faq">Vos questions :</h4>
+	<div class="question-reponse-content-faq">
 
-	<div class="question-faq">
-		<h4>Objet</h4>
-		<div class="questionposée-faq">
-			<h3>La question</h3>
+		<h4 class="question-zone-faq">Question posée</h4>
+			<div class="content-faq">
 
 		</div>
-		<div class="reponse-faq">
-			<p>La réponse</p>
+		<h4 class="objet-zone-faq">Objet</h4>
+
+		<h4 class="question-zone-faq">Question posée</h4>
+			<div class="content-faq">
+
 		</div>
-	</div>
+		<h4 class="objet-zone-faq">Objet</h4>
 
 </div>
 @endsection

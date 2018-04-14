@@ -12,7 +12,7 @@
 	top: -71px;
 	width: 25%;
 	height: 25px;
-	padding-top: 5px;
+	padding-top: 9px;
 
 	border: solid 1px black;
  	background-color: #424558;
@@ -87,4 +87,68 @@
 	transform: scaleX(0.90);
 	background-color: snow;
 	color: #424558;
+}
+
+/**
+	La zone des questions-reponses
+*/
+
+.question-reponse-content-faq{
+	position: relative;
+	width: 60%;
+	margin-left: 10%;
+	border: 1px solid black;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.titre-faq{
+	position: relative;
+	top: 30px;
+	width: 20%;
+	margin-left: 15%;
+	padding: 5px;
+	background-color: #424558;
+	color: snow;
+	text-align: center;
+	border: 1px solid black;
+	z-index: 2;
+}
+
+
+.content-faq{
+	position: relative;
+	width: 80%;
+	margin-left: 5%;
+	padding: 5%;
+	border: 1px solid black;
+}
+
+.question-zone-faq{
+	position: relative;
+	top: 28px;
+	width: 70%;
+	margin-left: 15%;
+	padding: 2px;
+	border: 1px solid black;
+	background-color: #424558;
+	text-align: center;
+	color: snow;
+	z-index: 2;
+}
+
+.objet-zone-faq{
+	position: relative;
+	top: -27px;
+	width: 10%;
+	margin-left: 45%;
+	margin-bottom: 20px;
+	padding: 2px;
+	background-color: #424558;
+	z-index: 2;
+	text-align: center;
+	color: snow;
+
 }
