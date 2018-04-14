@@ -1,10 +1,9 @@
 
 .content-formulaire-faq{
 	width: 60%;
-	height: 250px;
+	height: 425px;
 	margin-left: 15%;
 	padding: 2.5%;
-
 	border: solid 1px black;
 }
 
@@ -20,4 +19,70 @@
 
 	text-align: center;
 	color: white;
+}
+
+.radio-choix-objet-label{
+	position: relative;
+	width: 15%;
+	margin-left: 43%;
+}
+
+.radio-objet-faq{
+	padding: 2px;
+}
+
+.label-question-faq{
+	position: relative;
+	width: 25%;
+	margin-left: 45%;
+}
+
+.textarea-formulaire-question-faq{
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+	height: 50px;
+	outline-color: #424558;
+	resize: none;
+}
+
+.label-reponse-faq{
+	position: relative;
+	width: 50%;
+	margin-left: 47%;
+}
+
+.textarea-formulaire-reponse-faq{
+	position: relative;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 10px;
+	height: 100px;
+	outline-color: #424558;
+	resize: none;
+}
+
+.bouton-faq-envoyer{
+	position: relative;
+	width: 25%;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 38%;
+	background-color: #424558;
+	color: snow;
+	border: 1px solid black;
+	border-radius: 5px;
+	outline: none;
+}
+
+.bouton-faq-envoyer:hover{
+	cursor: pointer;
+	transform: scale(1.10);
+}
+
+.bouton-faq-envoyer:active{
+	transform: scaleX(0.90);
+	background-color: snow;
+	color: #424558;
 }

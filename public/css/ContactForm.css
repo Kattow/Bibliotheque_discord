@@ -95,6 +95,7 @@
     border-radius: 5%;
     padding: 15px 10%;
     color: snow;
+		outline: none;
 }
 
 .bouton-form-contact:hover{
