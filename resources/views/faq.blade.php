@@ -7,13 +7,13 @@
 
 <!--
 Les liens et les envoye a peut être changer
-Comme tu veux Kattow comme c'est toi qui gere cette partie ^^
+Comme tu veux Kattow comme cest toi qui gere cette partie ^^
 -->
 		{!! Form::open(['url' => 'faq']) !!}
 			<div {!! $errors->has('objet') ? 'has-error' : '' !!}>
 				{!! Form::label('objet', 'Objet :', ['class' => 'radio-choix-objet-label']) !!}
 <!--
-Tu pourras ajouter ceux que tu veux, la j'ai mis ce qui me venait a l'esprit
+Tu pourras ajouter ceux que tu veux, la jai mis ce qui me venait a lesprit
 comme je sais pas quel themes on va mettre pour le moment
 -->
 				{!! Form::select('objet', ['Futur', 'Actualité', 'Events', 'Lectures', 'Illustrations']) !!}
@@ -42,7 +42,7 @@ comme je sais pas quel themes on va mettre pour le moment
 			<h3>La question</h3>
 
 		</div>
-		<div class="reposne-faq">
+		<div class="reponse-faq">
 			<p>La réponse</p>
 		</div>
 	</div>
