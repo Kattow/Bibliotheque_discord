@@ -46,11 +46,13 @@
     position: relative;
     width: 50%;
     height: 25px;
-    padding-left: 7%;
+    padding-left: 2%;
+		padding-right: 5%;
     margin-left: 21%;
     margin-top: 3%;
     margin-bottom: 5%;
     text-align: center;
+		outline-color: #424558;
 }
 
 .label-email-contact{
@@ -68,6 +70,7 @@
     padding-left: 5%;
     padding-right: 17%;
     margin-bottom: 5%;
+		outline-color: #424558;
 }
 
 .label-texte-contact{
@@ -85,6 +88,8 @@
     padding-right: 7%;
     text-align: center;
     margin-bottom: 5%;
+		resize: none;
+		outline-color: #424558;
 }
 
 

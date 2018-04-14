@@ -29,6 +29,8 @@
 
 .radio-objet-faq{
 	padding: 2px;
+	outline-color: #424558;
+	border-color: #424558;
 }
 
 .label-question-faq{
