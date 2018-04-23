@@ -184,7 +184,8 @@ CREATE TABLE Projet_Categorie(
     REFERENCES `biblio`.`Project` (`id_project`),
   CONSTRAINT `fk_categorie_on_projet`
     FOREIGN KEY (`id_categorie`)
-    REFERENCES `biblio`.`Categorie` (`id_categorie`)
+    REFERENCES `biblio`.`Categorie` (`id_categorie`),
+  PRIMARY KEY (id_projet, id_categorie)
 );
 
 -- -----------------------------------------------------
@@ -199,7 +200,8 @@ CREATE TABLE Projet_Genre(
     REFERENCES `biblio`.`Project` (`id_project`),
   CONSTRAINT `fk_genre_on_projet`
     FOREIGN KEY (`id_genre`)
-    REFERENCES `biblio`.`Genre` (`id_genre`)
+    REFERENCES `biblio`.`Genre` (`id_genre`),
+  PRIMARY KEY (id_projet, id_genre)
 );
 
 -- -----------------------------------------------------
@@ -212,7 +214,25 @@ CREATE TABLE Projet_Mot_Cle(
   CONSTRAINT `fk_projet_assos_cle`
     FOREIGN KEY (`id_projet`)
     REFERENCES `biblio`.`Project` (`id_project`),
-    CONSTRAINT `fk_cle_on_projet`
+  CONSTRAINT `fk_cle_on_projet`
     FOREIGN KEY (`id_cle`)
-    REFERENCES `biblio`.`Mot_cle` (`id_cle`)
+    REFERENCES `biblio`.`Mot_cle` (`id_cle`),
+  PRIMARY KEY (id_projet, id_cle)
 );
+
+-- -----------------------------------------------------
+-- Table `biblio`.`Projet_Recompense`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS Projet_Recompense;
+CREATE TABLE Projet_Recompense(
+  id_projet INT,
+  id_recompense INT,
+  CONSTRAINT `fk_projet_assos_recompense`
+    FOREIGN KEY (`id_projet`)
+    REFERENCES `biblio`.`Project` (`id_project`),
+  CONSTRAINT `fk_recompense_on_projet`
+    FOREIGN KEY (`id_recompense`)
+    REFERENCES `biblio`.`Recompense` (`id_recompense`),
+  PRIMARY KEY (id_projet, id_recompense)
+);
+
