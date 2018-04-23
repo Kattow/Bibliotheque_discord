@@ -6,6 +6,10 @@ body{
     margin: 0px;
 }
 
+body:hover{
+	cursor: default;
+}
+
 .nav-menu{
     position: relative;
     top: 50px;
@@ -176,6 +180,7 @@ nav > ul > li{
 	cursor: pointer;
 }
 
+
 .compte-menu{
 	position: relative;
 	top: 50px;
@@ -183,4 +188,24 @@ nav > ul > li{
 	margin-left: 3%;
 	border: 1px solid black;
 	z-index: 5;
+	background-color: #424558;
+	line-height: 20px;
+}
+
+
+.compte-menu > h5{
+	position: relative;
+	color: snow;
+	text-align: center;
+}
+
+.ul-compte-menu{
+	position: relative;
+	top: -5%;
+}
+
+.compte-lien{
+	color: snow;
+	text-decoration: none;
+
 }

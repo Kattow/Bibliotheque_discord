@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/ContactForm.css" style="type/css">
     <link rel="stylesheet" href="css/ecrivainDuMois.css" style="type/css">
 		<link rel="stylesheet" href="css/faq.css" style="type/css">
+		<link rel="stylesheet" href="css/banniereMaintenance.css" style="type/css">
+		<link rel="stylesheet" href="css/inscription.css" style="type/css">
 
 </head>
 <body>
@@ -98,10 +100,12 @@
 			</nav>
 
 			<div class="compte-menu">
-				<ul>
-					<li> <a href="#">Connexion</a> </li>
-					<li> <a href="#">Mon compte</a> </li>
-					<li> <a href="#">Mes oeuvres</a> </li>
+				<h5>utilisateur</h5>
+				<ul class="ul-compte-menu">
+					<li> <a href="http://biblio/connexion" class="compte-lien">Connexion</a> </li>
+					<li> <a href="http://biblio/inscription" class="compte-lien">Inscription</a> </li>
+					<li> <a href="#" class="compte-lien">Mon compte</a> </li>
+					<li> <a href="#" class="compte-lien">Mes oeuvres</a> </li>
 				</ul>
 			</div>
 
@@ -114,7 +118,7 @@
 -->
 <br><br><br><br><br><br><br>
     @yield('content')
-    @extends('../footer')
-    @yield('bannieremaintenance') 
+    <!-- @extends('../footer') -->
+    @yield('bannieremaintenance')
     </body>
 </html>
