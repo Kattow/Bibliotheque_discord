@@ -3,10 +3,12 @@
 
 @section('content')
 
-	<div class="formulaire-inscription">
+	<div class="formulaire-inscription-content">
 		<div class="inscription-formulaire-titre">
 			<h4>Inscription :</h4>
 		</div>
+		<div class="formulaire-inscription">
+
 		{!! Form::open(['url' => 'inscription']) !!}
 
 		<div {!! $errors->has('') ? 'has-error' : ''!!}>
@@ -63,9 +65,10 @@
 			{!! Form::label('conditions', "J'ai lu et j'accepte les conditions d'utilisations") !!}
 		</div>
 
-		{!! Form::submit("S'inscrire") !!}
+		{!! Form::submit("S'inscrire", ['class' => 'bouton-inscription']) !!}
 
 		{!! Form::close() !!}
+		</div>
 	</div>
 
 @endsection
