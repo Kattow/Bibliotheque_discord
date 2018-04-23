@@ -172,3 +172,47 @@ CREATE TABLE Faq(
   reponse_faq TEXT NOT NULL
 );
 
+-- -----------------------------------------------------
+-- Table `biblio`.`Projet_Categorie`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS Projet_Categorie;
+CREATE TABLE Projet_Categorie(
+  id_projet INT,
+  id_categorie INT;
+  CONSTRAINT `fk_projet_assos_categorie`
+    FOREIGN KEY (`id_projet`)
+    REFERENCES `biblio`.`Project` (`id_project`),
+  CONSTRAINT `fk_categorie_on_projet`
+    FOREIGN KEY (`id_categorie`)
+    REFERENCES `biblio`.`Categorie` (`id_categorie`)
+);
+
+-- -----------------------------------------------------
+-- Table `biblio`.`Projet_Genre`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS Projet_Genre;
+CREATE TABLE Projet_Genre(
+  id_projet INT,
+  id_genre INT,
+  CONSTRAINT `fk_projet_assos_genre`
+    FOREIGN KEY (`id_projet`)
+    REFERENCES `biblio`.`Project` (`id_project`),
+  CONSTRAINT `fk_genre_on_projet`
+    FOREIGN KEY (`id_genre`)
+    REFERENCES `biblio`.`Genre` (`id_genre`)
+);
+
+-- -----------------------------------------------------
+-- Table `biblio`.`Projet_Mot_Cle`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS Projet_Mot_Cle;
+CREATE TABLE Projet_Mot_Cle(
+  id_projet INT,
+  id_cle INT,
+  CONSTRAINT `fk_projet_assos_cle`
+    FOREIGN KEY (`id_projet`)
+    REFERENCES `biblio`.`Project` (`id_project`),
+    CONSTRAINT `fk_cle_on_projet`
+    FOREIGN KEY (`id_cle`)
+    REFERENCES `biblio`.`Mot_cle` (`id_cle`)
+);
