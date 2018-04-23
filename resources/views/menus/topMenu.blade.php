@@ -115,5 +115,6 @@
 <br><br><br><br><br><br><br>
     @yield('content')
     @extends('../footer')
+    @yield('bannieremaintenance')
     </body>
 </html>
