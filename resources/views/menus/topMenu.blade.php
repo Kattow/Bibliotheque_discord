@@ -60,6 +60,7 @@
 
         </ul>
 
+
         <ul class="alphabet-menu">
             <li> <a href="#">#</a> </li>
             <li> <a href="#">A</a> </li>
@@ -90,9 +91,27 @@
             <li> <a href="#">Z</a> </li>
         </ul>
 
-    </nav>
+				<div class="connection-top-menu">
+					<h3 class="connection-menu-image"> ||| </h3>
+				</div>
+
+			</nav>
+
+			<div class="compte-menu">
+				<ul>
+					<li> <a href="#">Connexion</a> </li>
+					<li> <a href="#">Mon compte</a> </li>
+					<li> <a href="#">Mes oeuvres</a> </li>
+				</ul>
+			</div>
+
+
 </div>
     </nav>
+
+<!--
+	Les maintenances
+-->
 <br><br><br><br><br><br><br>
     @yield('content')
     @extends('../footer')

@@ -1,4 +1,3 @@
-
 // La bannière de maintenance pour les pages de connexion, d'inscription et de déconnexion
 @section('bannieremaintenance')
 
@@ -12,3 +11,4 @@
     </div>
 
 @endsection  
+
