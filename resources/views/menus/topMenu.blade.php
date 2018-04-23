@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Accueil</title>
+    <title>Biblio endormie</title>
     <!--Link de tout les css-->
     <link rel="stylesheet" href="css/TopMenu.css" style="type/css">
     <link rel="stylesheet" href="css/ContactForm.css" style="type/css">
