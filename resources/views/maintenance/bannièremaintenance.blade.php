@@ -11,4 +11,4 @@
         <p>Le site est actuellement en maintenance, vous pourriez rencontrer des problemes</p>
     </div>
 
-@endsection
+@endsection  
