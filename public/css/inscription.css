@@ -1,0 +1,22 @@
+
+.formulaire-inscription{
+	position: absolute;
+	top: 25%;
+	width: 80%;
+	height: 500px;
+	margin-left: 10%;
+
+	border: solid 1px black;
+}
+
+.inscription-formulaire-titre{
+	position: relative;
+	top: -5%;
+	left: 35%;
+	width: 25%;
+	text-align: center;
+
+	border: solid 1px black;
+	background-color: #424558;
+	color: snow;
+}
