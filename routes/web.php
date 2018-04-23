@@ -22,8 +22,8 @@ Route::get('/', 'PageAccueilController@accueil')->name('home');
 
 Route::get('article/{id}', 'ArticleController@show')->where('id', '[0-9]+');
 
-Route::get('facture/{id}', function($id) { 
-    return view('facture')->with('id', $id); 
+Route::get('facture/{id}', function($id) {
+    return view('facture')->with('id', $id);
 })->where('n', '[0-9]+');
 
 Route::get('login/{nom}-{id}', ['as' => 'login', function($nom, $id){
@@ -38,7 +38,7 @@ Route::post('users', 'UsersController@store');
 //http://biblio/contact
 Route::get('contact', 'ContactController@create');
 
-//la page d'accueil du site : 
+//la page d'accueil du site :
 Route::get('accueil', 'PageAccueilController@accueil');
 
 //Route::post('contact', 'ContactController@store');
@@ -55,3 +55,8 @@ Route::get('evenements', 'EvenementController@evenement');
 //Route pour acceder a la page ecrivain du mois
 Route::get('ecrivain', 'EcrivainController@ecrivain');
 
+//Route pour acceder a la page de connexion
+Route::get('connexion', 'ConnexionController@connexion');
+
+//Route pour acceder a la page d'inscription
+Route::get('inscription', 'InscriptionController@inscription');
