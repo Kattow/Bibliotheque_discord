@@ -60,3 +60,6 @@ Route::get('connexion', 'ConnexionController@connexion');
 
 //Route pour acceder a la page d'inscription
 Route::get('inscription', 'InscriptionController@inscription');
+
+//Route pour acceder a j'ai oublié mon mot de passe
+Route::get('oubliemdp', 'OublieMDPController@oublieMDP');

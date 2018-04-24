@@ -18,7 +18,7 @@
 		</div>
 
 		<div {!! $errors->has('') ? 'has-error' : ''!!}>
-			{!! Form::label('mdp', "entrez votre mot de passe :") !!}<a href="#">(J'ai oublié mon mot de passe)</a>
+			{!! Form::label('mdp', "entrez votre mot de passe :") !!}<a href="http://biblio/oubliemdp">(J'ai oublié mon mot de passe)</a>
 			<br>
 			{!! Form::password('mdp') !!}
 		</div>
