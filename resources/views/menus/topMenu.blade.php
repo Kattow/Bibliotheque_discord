@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="css/faq.css" style="type/css">
 		<link rel="stylesheet" href="css/banniereMaintenance.css" style="type/css">
 		<link rel="stylesheet" href="css/inscription.css" style="type/css">
+		<link rel="stylesheet" href="css/connexion.css" style="type/css">
 
 </head>
 <body>
