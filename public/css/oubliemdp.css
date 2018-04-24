@@ -1,0 +1,14 @@
+
+.oubliemdp-content{
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	padding-bottom: 1%;
+	text-align: center;
+	border: solid 1px black;
+}
+
+.bouton-renvoyer:hover{
+	cursor: pointer;
+	transform: scale(1.10);
+}

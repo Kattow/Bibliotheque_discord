@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/banniereMaintenance.css" style="type/css">
 		<link rel="stylesheet" href="css/inscription.css" style="type/css">
 		<link rel="stylesheet" href="css/connexion.css" style="type/css">
+		<link rel="stylesheet" href="css/oubliemdp.css" style="type/css">
 
 </head>
 <body>
@@ -30,9 +31,9 @@
 
             <li class="menu-li"> <a href="#" class="lien">Oeuvres</a>
                 <ul class="sous-menu">
-                    <li> <a href="#" class="lien">Ecrivain du mois</a> </li>
-                    <li> <a href="#" class="lien">Illustrations</a> </li>
-                    <li> <a href="#" class="lien">Liste des oeuvres</a> </li>
+                    <li> <a href="http://biblio/ecrivaindumois" class="lien">Ecrivain du mois</a> </li>
+                    <li> <a href="http://biblio/illustrations" class="lien">Illustrations</a> </li>
+                    <li> <a href="http://biblio/listeoeuvre" class="lien">Liste des oeuvres</a> </li>
                     <li> <a href="#" class="lien">Meilleures oeuvres</a> </li>
                     <li> <a href="#" class="lien">Random book generator</a> </li>
                 </ul>

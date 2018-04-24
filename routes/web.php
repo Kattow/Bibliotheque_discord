@@ -53,7 +53,7 @@ Route::get('annonces', 'AnnoncesController@annonces');
 Route::get('evenements', 'EvenementController@evenement');
 
 //Route pour acceder a la page ecrivain du mois
-Route::get('ecrivain', 'EcrivainController@ecrivain');
+Route::get('ecrivaindumois', 'EcrivainController@ecrivain');
 
 //Route pour acceder a la page de connexion
 Route::get('connexion', 'ConnexionController@connexion');
@@ -63,3 +63,9 @@ Route::get('inscription', 'InscriptionController@inscription');
 
 //Route pour acceder a j'ai oublié mon mot de passe
 Route::get('oubliemdp', 'OublieMDPController@oublieMDP');
+
+//Route pour acceder a la page liste des oeuvres
+Route::get('listeoeuvre', 'ListeOeuvreController@liste');
+
+//Route pour acceder a la page illustration du site
+Route::get('illustrations', 'IllustrationsController@illustrations');

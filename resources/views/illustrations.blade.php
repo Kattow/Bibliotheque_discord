@@ -4,7 +4,7 @@
 @section('content')
 
 	<div class="">
-		<h1>Vous etes sur la page ecrivain du mois</h1>
+		<h1>Vous etes sur la page illustrations</h1>
 	</div>
 
 @endsection
