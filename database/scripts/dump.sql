@@ -129,7 +129,10 @@ CREATE TABLE Post_forum(
   titre_post VARCHAR(40) NOT NULL,
   contenu_post TEXT NOT NULL,
   id_user INT,
-  PRIMARY KEY id_post 
+  PRIMARY KEY id_post,
+  CONSTRAINT `fk_post_on_user`
+    FOREIGN KEY (`id_user`)
+    REFERENCES `biblio`.`Utilisateur` (`id_user`)
 );
 
 -- -----------------------------------------------------
