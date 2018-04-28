@@ -69,3 +69,10 @@ Route::get('listeoeuvre', 'ListeOeuvreController@liste');
 
 //Route pour acceder a la page illustration du site
 Route::get('illustrations', 'IllustrationsController@illustrations');
+
+
+
+
+
+//La page de test
+Route::get('test', 'TestController@test');
