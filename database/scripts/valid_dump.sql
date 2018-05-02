@@ -1,5 +1,5 @@
 DROP DATABASE IF EXISTS biblio;
-CREATE DATABASE biblio; 
+CREATE DATABASE biblio DEFAULT CHARACTER SET UTF8; 
 USE biblio;
 
 -- -----------------------------------------------------
@@ -24,7 +24,7 @@ CREATE TABLE Oeuvre(
   id_oeuvre int AUTO_INCREMENT NOT NULL,
   nom_oeuvre VARCHAR(30) NOT NULL,
   type_oeuvre ENUM('poeme', 'roman', 'nouvelle', 'prose', 'fan_fiction') NOT NULL,
-  resume_oeuvre VARCHAR(40) NOT NULL,
+  resume_oeuvre TEXT NOT NULL,
   contenu_oeuvre TEXT,
   id_user INT,
   PRIMARY KEY (id_oeuvre),
